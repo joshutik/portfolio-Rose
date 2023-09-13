@@ -1,0 +1,10 @@
+@media screen and (max-width: 990px) {
+.medium-screen {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.785), rgba(0, 0, 0, 0.774)), url(./assets/Img/WhatsApp_Image_2023-09-12_at_4.33.09_PM-removebg-preview.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-height: 120vh !important;
+    
+}
+}
