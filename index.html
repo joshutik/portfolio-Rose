@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
 </head>
 
-<body>
+<body class="bg-secondary">
     <!-- the header section -->
     <nav class="navbar navbar-expand-lg sticky-top bg-light">
         <div class="container">
@@ -35,13 +35,13 @@
         </div>
     </nav>
     <!-- hero page -->
-    <section class="bg-body-tertiary">
+    <section class="bg-body-tertiary shadow-lg pb-5">
         <div class="container  d-none d-lg-block">
             <div class="row align-items-center gy-3">
                 <div class="col-sm-6 col-md-5 col-lg-6">
                     <div class="container">
                         <h4>This is me</h4>
-                        <h2 class="fw-bold display-2 text-success">UGWU ROSEMARY</h2>
+                        <h2 class="fw-bold display-2 text-success">Hi, I'm Jane Rosie</h2>
                         <p>
                             Lorem ipsum dolor sit amet consectetur
                             adipisicing elit. Magni iusto voluptatum distinctio.
@@ -60,41 +60,122 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid d-md-block d-lg-none medium-screen">
-            <div class="row justify-content-center align-items-center min-vh-100">
+        <!--Mobile screen display  -->
+        <div class="container-fluid d-md-block d-lg-none medium-screen ">
+            <div class="row justify-content-center align-items-center min-vh-100 pb-5">
                 <div class="col-sm-12 col-md-10 col-lg-6">
                     <div class="container py-5">
                         <div class="container-fluid text-light">
                             <h4 class="">This is me</h4>
-                            <h2 class="fw-bold display-2 text-success">UGWU ROSEMARY</h2>
+                            <h2 class="fw-bold display-2 text-success">Hi, I'm Jane Rosie</h2>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur
                                 adipisicing elit. Magni iusto voluptatum distinctio.
                             </p>
                         </div>
-                        <div class="container-fluid ">
+                        <div class="container-fluid mb-5">
                             <a href="#" class="btn btn-outline-success icon-link icon-link-hover my-2">Learn More <i
                                     class="bi bi-arrow-right text-sucess mb-2"></i></a>
                             <a href="#" class=" btn btn-success px-3 my-2">Hire Me</a>
                         </div>
                     </div>
                 </div>
-                <!-- <div class="col-sm-6 col-md-6 col-lg-6">
-                    <div class="container-fliud text-center mx-4">
-                        <img class="img-fluid h-25"
-                            src="./assets/Img/Untitled design.png" alt="">
-                    </div>
-                </div> -->
             </div>
         </div>
     </section>
     <!-- about -->
-    <section>
-        <div class="container">
-
+    <section class=" min-vh-100 bg-secondary">
+        <div class="container mt-5 pt-5">
+            <div class="row align-items-center justify-content-center gy-5 pb-5">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="card shadow-light">
+                        <img class="img-fluid w-100 rounded" src="./assets/Img/about-img.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="container text-light text-center">
+                        <h2 class="">About Me</h2>
+                        <p>
+                            Dedicated and skilled professional with experience in
+                            administrative roles, seeking to
+                            contribute expertise in organizational management,
+                            communication, and problem-solving...
+                        <div>
+                            <a class="btn btn-outline-light fw-bold " href="./about-me.html">Learn more</a>
+                        </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
+    <!-- contact section -->
+    <section class="bg-light pt-5">
+        <h2 class="text-center fw-bold text-success">Contact Me</h2>
+        <div class="container-fluid pt-3">
+            <div class="row justify-content-center align-items-center gy-4">
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <div class="d-flex justify-content-center">
+                        <div class="fs-1 my-2">
+                            <i class="bi bi-house-add text-success "></i>
+                        </div>
+                        <address class="text-italic mx-3 my-3">
+                            5 Ezedioka Close, Abakpa Nike <br>
+                            <em class="text-body-secondary">(Enugu-East), Enugu State.</em>
+                        </address>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <div class="fs-1 my-2">
+                            <i class="bi bi-telephone-inbound text-success "></i>
+                        </div>
+                        <p class="text-italic mx-3 my-3">
+                            07062666832<br>
+                            <em class="text-body-secondary">Monday-Friday 8am - 6pm</em>
+                        </p>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <div class="fs-1 my-2">
+                            <i class="bi bi-envelope-at text-success "></i>
+                        </div>
+                        <p class="text-italic mx-3 my-3">
+                            janerosie52@gmail.com<br>
+                            <em class="text-body-secondary">Send us a queary anytime.</em>
+                        </p>
+                    </div>
+                </div>
+                <!-- form -->
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                    <form class="row g-3 d-flex">
+                        <div class="col-lg-6 col-md-12">
+                            <div class="mt-1">
+                                <input type="text" class="form-control py-3" placeholder="First name"
+                                    aria-label="First name">
+                            </div>
+                            <div class="mt-2">
+                                <input type="email" class="form-control py-3" id="inputEmail4" placeholder="Enter email">
+                            </div>
+                            <div class="mt-2">
+                                <input type="text" class="form-control py-3" id="inputSubject" placeholder="Enter subject">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                                style="height: 200px"></textarea>
+                
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- project -->
+    <section>
+        <div class="container-fluid bg-light">
+
+        </div>
+    </section>
 
 
 
