@@ -1,10 +1,46 @@
 @media screen and (max-width: 990px) {
-.medium-screen {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.680), rgba(0, 0, 0, 0.680)), url(./assets/Img/WhatsApp_Image_2023-09-12_at_4.33.09_PM-removebg-preview.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    min-height: 80vh !important;
-    
+    .medium-screen {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.680), rgba(0, 0, 0, 0.680)), url(./assets/Img/WhatsApp_Image_2023-09-12_at_4.33.09_PM-removebg-preview.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        min-height: 80vh !important;
+
+    }
 }
+
+/* About styling */
+.backg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.700), rgba(0, 0, 0, 0.700)), url(./assets/Img/the\ about\ pic.jpg);
+    background-size: cover;
+    height: 15rem;
+    background-position: center;
+    object-fit: cover;
+}
+
+/* contact styling */
+.backg-cont{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.700), rgba(0, 0, 0, 0.700)), url(./assets/Img/contact\ me.jpg);
+    background-size: cover;
+    height: 15rem;
+    background-position: center;
+    object-fit: cover;
+}
+
+/* Blog styling */
+.backg-blog{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.700), rgba(0, 0, 0, 0.700)), url(./assets/Img/the\ about\ pic.jpg);
+    background-size: cover;
+    height: 15rem;
+    background-position: center;
+    object-fit: cover;
+}
+
+/* project styling */
+.backg-project{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.800), rgba(0, 0, 0, 0.800)), url(./assets/Img/the\ about\ pic.jpg);
+    background-size: cover;
+    height: 15rem;
+    background-position: center;
+    object-fit: cover;
 }
