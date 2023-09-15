@@ -3,7 +3,13 @@
     margin: 0px !important;
     box-sizing: border-box !important;
 } */
+body{
+    font-family: 'Rubik Iso', cursive;
+}
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Space Grotesk', sans-serif;
+}
 /* styling for the mobile screen */
 @media screen and (max-width: 990px) {
     .medium-screen {
