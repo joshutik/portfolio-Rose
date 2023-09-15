@@ -3,9 +3,11 @@
     margin: 0px !important;
     box-sizing: border-box !important;
 } */
+
+/* styling for the mobile screen */
 @media screen and (max-width: 990px) {
     .medium-screen {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.680), rgba(0, 0, 0, 0.680)), url(./assets/Img/WhatsApp_Image_2023-09-12_at_4.33.09_PM-removebg-preview.png);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.680), rgba(0, 0, 0, 0.680)), url(./assets/Img/Hero-bg.png);
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
@@ -21,6 +23,10 @@
     height: 15rem;
     background-position: center;
     object-fit: cover;
+}
+
+.gray {
+    background-color: darkgray;
 }
 
 /* contact styling */
@@ -48,4 +54,9 @@
     height: 15rem;
     background-position: center;
     object-fit: cover;
+}
+
+.bg-sec{
+    background-color: rgba(169, 169, 169, 0.595);
+    
 }
