@@ -43,10 +43,21 @@ h1, h2, h3, h4, h5, h6 {
     background-position: center;
     object-fit: cover;
 }
-
 .gray {
     background-color: darkgray;
 }
+
+@media screen and (max-width:430px) {
+    .gray{
+        background-image: url(./assets/Img/about\ me.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
+}
+
+/* End of About me styling */
+
 
 /* contact styling */
 .backg-cont{
