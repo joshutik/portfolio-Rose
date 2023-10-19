@@ -86,7 +86,21 @@ h1, h2, h3, h4, h5, h6 {
     object-fit: cover;
 }
 
+span{
+    font-style: italic;
+    font-size: 20px;
+}
+
 .bg-sec{
     background-color: rgba(169, 169, 169, 0.595);
     
+}
+
+#preloader{
+    background:#000 url(./assets/Img/animat\ loader.gif) no-repeat center center !important;
+    height: 100vh !important;
+    width: 100%;
+    position: fixed;
+    z-index: 300;
+
 }
